@@ -1,0 +1,106 @@
+# Jenkins Freestyle Jobs
+
+## Overview
+
+This repository builds on the **CI/CD foundations and Jenkins setup** covered earlier.
+Here, we focus on **Jenkins Freestyle jobs**, which are the simplest way to understand how Jenkins works.
+
+Freestyle jobs help you learn:
+- How Jenkins pulls source code
+- How builds are executed
+- How job configuration flows inside Jenkins
+
+This is an important step before moving to pipelines.
+
+---
+
+## What You Will Learn
+
+- What a Jenkins Freestyle job is
+- Creating and configuring Freestyle jobs
+- Integrating Git repositories
+- Running shell commands as build steps
+- Understanding build triggers
+- Post-build actions
+
+---
+
+## Topics Covered
+
+- Jenkins job lifecycle
+- Source Code Management (Git)
+- Build steps (Execute Shell)
+- Environment variables
+- Job execution and logs
+- Build success vs failure
+
+---
+
+## Hands-on Labs
+
+- Create a basic Freestyle job
+- Pull code from GitHub
+- Run shell commands
+- Simulate build failures
+- View and analyze Jenkins logs
+
+---
+
+## Why Freestyle Jobs?
+
+- Easy to understand
+- UI-driven
+- Good for beginners
+- Helps understand Jenkins fundamentals
+
+---
+
+
+# Jenkins Pipelines
+
+## Overview
+
+This repository introduces **Jenkins Pipelines**, the modern and recommended way to define CI/CD workflows.
+
+Unlike Freestyle jobs, pipelines are defined as **code** using a `Jenkinsfile`, making them:
+- Version controlled
+- Reusable
+- Scalable
+
+---
+
+## What You Will Learn
+
+- What Jenkins Pipelines are
+- Pipeline-as-Code concept
+- Declarative vs Scripted pipelines
+- Jenkinsfile structure
+- Stages and steps
+- Agents and environment variables
+
+---
+
+## Topics Covered
+
+- Jenkinsfile syntax
+- Declarative pipeline basics
+- Pipeline stages and steps
+- Using agents
+- Environment variables
+- Basic error handling
+- Pipeline visualization
+
+---
+
+## Hands-on Labs
+
+- Create your first Jenkins pipeline
+- Write a basic Jenkinsfile
+- Configure pipeline from Git
+- Run multi-stage pipelines
+- Debug pipeline failures
+
+---
+
+## Sample Pipeline Flow
+
